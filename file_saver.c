@@ -14,6 +14,7 @@ while(i < 1){
     *myTime = localtime(&currentTime);
     print("%i/%i/%i\n", myTime->tm_mon+1, myTime->tm_mday, myTime->tm_year+1900);
     i++;
+    
 }
 
 }
